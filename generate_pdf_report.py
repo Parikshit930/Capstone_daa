@@ -166,6 +166,12 @@ def create_capstone_pdf():
 
     <table class="meta-grid">
         <tr>
+            <td class="meta-lbl">Student Name</td>
+            <td class="meta-val"><b>Parikshit Chauhan</b></td>
+            <td class="meta-lbl">Roll Number</td>
+            <td class="meta-val"><b>2501730398</b></td>
+        </tr>
+        <tr>
             <td class="meta-lbl">Course Title & Code</td>
             <td class="meta-val">Design & Analysis of Algorithms (ETCCDA302)</td>
             <td class="meta-lbl">Faculty Evaluator</td>
@@ -360,7 +366,7 @@ P107(w=7,v=11)  0    0    5    7    8   12   13   15   18   20   22   24   26   
         <br><b>GitHub Repository:</b> <a href="https://github.com/Parikshit930/Capstone_daa">https://github.com/Parikshit930/Capstone_daa</a>
     </p>
     <p>
-        <b>Submitted by:</b> B.Tech CSE (ETCCDA302) &nbsp;|&nbsp; <b>Evaluator:</b> Dr. Shweta Agarwal &nbsp;|&nbsp; <b>Platform:</b> Zosima
+        <b>Submitted by:</b> Parikshit Chauhan (Roll No: 2501730398) &nbsp;|&nbsp; <b>B.Tech CSE (ETCCDA302)</b> &nbsp;|&nbsp; <b>Evaluator:</b> Dr. Shweta Agarwal &nbsp;|&nbsp; <b>Platform:</b> Zosima
     </p>
 
     </body>

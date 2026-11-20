@@ -1,9 +1,12 @@
 # Mini-Courier Planner: Algorithmic Optimization Engine
+**Student Name:** Parikshit Chauhan  
+**Roll Number:** 2501730398  
 **Course:** Design & Analysis of Algorithms (ETCCDA302)  
 **Programme:** B.Tech CSE & Specializations | Semester III  
 **Institution:** K.R. Mangalam University, Gurugram  
 **Faculty Evaluator:** Dr. Shweta Agarwal  
 **Assessment:** Coding-Based Capstone Assignment (100 Marks, Scaled to 10 Marks)  
+**Submission Mode:** Zosima & GitHub  
 
 ---
 

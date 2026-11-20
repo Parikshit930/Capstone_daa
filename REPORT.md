@@ -1,10 +1,14 @@
 # Capstone Project Report: Mini-Courier Planner
+**Student Name:** Parikshit Chauhan  
+**Roll Number:** 2501730398  
 **Course Title & Code:** Design & Analysis of Algorithms (ETCCDA302)  
 **Programme & Semester:** B.Tech CSE & Specializations, Semester III  
 **Institution:** K.R. Mangalam University, Gurugram, Haryana  
 **Faculty Evaluator:** Dr. Shweta Agarwal  
 **Assessment Type:** Coding-based Capstone Project (100 Marks, Scaled to 10 Marks)  
-**Mapped Course Outcomes (COs):** CO1, CO2, CO3, CO4 (Blooms Level L5: Evaluate / Create)
+**Mapped Course Outcomes (COs):** CO1, CO2, CO3, CO4 (Blooms Level L5: Evaluate / Create)  
+**Submission Mode:** Zosima & GitHub Repository Link  
+**GitHub Repository:** [https://github.com/Parikshit930/Capstone_daa](https://github.com/Parikshit930/Capstone_daa)
 
 ---
 
