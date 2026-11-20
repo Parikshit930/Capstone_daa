@@ -1,0 +1,92 @@
+{
+  "depot": "D0",
+  "vehicle_capacity_kg": 15,
+  "graph": {
+    "is_directed": false,
+    "nodes": [
+      { "id": "D0", "label": "Central Depot (KRMU Hub)" },
+      { "id": "C1", "label": "Sector 14 Market" },
+      { "id": "C2", "label": "Cyber Hub Phase 2" },
+      { "id": "C3", "label": "Sohna Road Plaza" },
+      { "id": "C4", "label": "Golf Course Extn" },
+      { "id": "C5", "label": "Old Railway Station" }
+    ],
+    "edges": [
+      { "from": "D0", "to": "C1", "weight": 5.0 },
+      { "from": "D0", "to": "C3", "weight": 8.0 },
+      { "from": "C1", "to": "C2", "weight": 4.0 },
+      { "from": "C1", "to": "C3", "weight": 6.0 },
+      { "from": "C2", "to": "C4", "weight": 3.0 },
+      { "from": "C3", "to": "C4", "weight": 7.0 },
+      { "from": "C3", "to": "C5", "weight": 9.0 },
+      { "from": "C4", "to": "C5", "weight": 5.0 },
+      { "from": "D0", "to": "C5", "weight": 14.0 }
+    ]
+  },
+  "parcels": [
+    {
+      "id": "P101",
+      "customer_name": "Aarav Sharma",
+      "destination": "C1",
+      "weight": 3,
+      "priority": 7,
+      "deadline_hours": 2.5
+    },
+    {
+      "id": "P102",
+      "customer_name": "Diya Verma",
+      "destination": "C2",
+      "weight": 5,
+      "priority": 10,
+      "deadline_hours": 1.5
+    },
+    {
+      "id": "P103",
+      "customer_name": "Rohan Gupta",
+      "destination": "C3",
+      "weight": 4,
+      "priority": 6,
+      "deadline_hours": 4.0
+    },
+    {
+      "id": "P104",
+      "customer_name": "Ananya Rao",
+      "destination": "C4",
+      "weight": 6,
+      "priority": 12,
+      "deadline_hours": 2.0
+    },
+    {
+      "id": "P105",
+      "customer_name": "Kabir Mehta",
+      "destination": "C5",
+      "weight": 2,
+      "priority": 5,
+      "deadline_hours": 1.0
+    },
+    {
+      "id": "P106",
+      "customer_name": "Isha Kapoor",
+      "destination": "C1",
+      "weight": 4,
+      "priority": 8,
+      "deadline_hours": 3.0
+    },
+    {
+      "id": "P107",
+      "customer_name": "Vikram Singh",
+      "destination": "C2",
+      "weight": 7,
+      "priority": 11,
+      "deadline_hours": 5.0
+    },
+    {
+      "id": "P108",
+      "customer_name": "Neha Joshi",
+      "destination": "C4",
+      "weight": 3,
+      "priority": 6,
+      "deadline_hours": 3.5
+    }
+  ]
+}

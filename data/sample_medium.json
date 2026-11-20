@@ -1,0 +1,443 @@
+{
+  "depot": "D0",
+  "vehicle_capacity_kg": 30,
+  "graph": {
+    "is_directed": false,
+    "nodes": [
+      {
+        "id": "D0",
+        "label": "Central Depot"
+      },
+      {
+        "id": "N1",
+        "label": "Location N1"
+      },
+      {
+        "id": "N2",
+        "label": "Location N2"
+      },
+      {
+        "id": "N3",
+        "label": "Location N3"
+      },
+      {
+        "id": "N4",
+        "label": "Location N4"
+      },
+      {
+        "id": "N5",
+        "label": "Location N5"
+      },
+      {
+        "id": "N6",
+        "label": "Location N6"
+      },
+      {
+        "id": "N7",
+        "label": "Location N7"
+      },
+      {
+        "id": "N8",
+        "label": "Location N8"
+      },
+      {
+        "id": "N9",
+        "label": "Location N9"
+      },
+      {
+        "id": "N10",
+        "label": "Location N10"
+      },
+      {
+        "id": "N11",
+        "label": "Location N11"
+      },
+      {
+        "id": "N12",
+        "label": "Location N12"
+      },
+      {
+        "id": "N13",
+        "label": "Location N13"
+      },
+      {
+        "id": "N14",
+        "label": "Location N14"
+      }
+    ],
+    "edges": [
+      {
+        "from": "D0",
+        "to": "N1",
+        "weight": 13.9
+      },
+      {
+        "from": "N1",
+        "to": "N2",
+        "weight": 8.6
+      },
+      {
+        "from": "N2",
+        "to": "N3",
+        "weight": 9.0
+      },
+      {
+        "from": "N1",
+        "to": "N4",
+        "weight": 14.0
+      },
+      {
+        "from": "N3",
+        "to": "N5",
+        "weight": 11.3
+      },
+      {
+        "from": "N1",
+        "to": "N6",
+        "weight": 6.9
+      },
+      {
+        "from": "N3",
+        "to": "N7",
+        "weight": 3.8
+      },
+      {
+        "from": "N3",
+        "to": "N8",
+        "weight": 4.9
+      },
+      {
+        "from": "N7",
+        "to": "N9",
+        "weight": 12.2
+      },
+      {
+        "from": "N5",
+        "to": "N10",
+        "weight": 5.3
+      },
+      {
+        "from": "N5",
+        "to": "N11",
+        "weight": 5.9
+      },
+      {
+        "from": "N6",
+        "to": "N12",
+        "weight": 8.1
+      },
+      {
+        "from": "N1",
+        "to": "N13",
+        "weight": 8.2
+      },
+      {
+        "from": "N4",
+        "to": "N14",
+        "weight": 5.5
+      },
+      {
+        "from": "D0",
+        "to": "N8",
+        "weight": 5.2
+      },
+      {
+        "from": "D0",
+        "to": "N12",
+        "weight": 5.5
+      },
+      {
+        "from": "N2",
+        "to": "N7",
+        "weight": 17.5
+      },
+      {
+        "from": "N2",
+        "to": "N10",
+        "weight": 12.5
+      },
+      {
+        "from": "N2",
+        "to": "N13",
+        "weight": 13.2
+      },
+      {
+        "from": "N4",
+        "to": "N7",
+        "weight": 18.9
+      },
+      {
+        "from": "N4",
+        "to": "N11",
+        "weight": 6.4
+      },
+      {
+        "from": "N5",
+        "to": "N6",
+        "weight": 12.8
+      },
+      {
+        "from": "N5",
+        "to": "N9",
+        "weight": 14.9
+      },
+      {
+        "from": "N5",
+        "to": "N14",
+        "weight": 11.5
+      },
+      {
+        "from": "N6",
+        "to": "N11",
+        "weight": 8.5
+      },
+      {
+        "from": "N6",
+        "to": "N14",
+        "weight": 4.2
+      },
+      {
+        "from": "N7",
+        "to": "N12",
+        "weight": 9.4
+      },
+      {
+        "from": "N8",
+        "to": "N9",
+        "weight": 13.5
+      },
+      {
+        "from": "N8",
+        "to": "N11",
+        "weight": 6.1
+      },
+      {
+        "from": "N9",
+        "to": "N13",
+        "weight": 14.6
+      },
+      {
+        "from": "N9",
+        "to": "N14",
+        "weight": 5.9
+      },
+      {
+        "from": "N10",
+        "to": "N11",
+        "weight": 17.8
+      },
+      {
+        "from": "N10",
+        "to": "N12",
+        "weight": 14.7
+      },
+      {
+        "from": "N11",
+        "to": "N13",
+        "weight": 11.3
+      }
+    ]
+  },
+  "parcels": [
+    {
+      "id": "P201",
+      "customer_name": "Vikram_1",
+      "destination": "N10",
+      "weight": 9,
+      "priority": 8,
+      "deadline_hours": 4.0
+    },
+    {
+      "id": "P202",
+      "customer_name": "Vikram_2",
+      "destination": "N11",
+      "weight": 10,
+      "priority": 6,
+      "deadline_hours": 7.4
+    },
+    {
+      "id": "P203",
+      "customer_name": "Vikram_3",
+      "destination": "N8",
+      "weight": 6,
+      "priority": 10,
+      "deadline_hours": 1.0
+    },
+    {
+      "id": "P204",
+      "customer_name": "Isha_4",
+      "destination": "N4",
+      "weight": 2,
+      "priority": 10,
+      "deadline_hours": 6.3
+    },
+    {
+      "id": "P205",
+      "customer_name": "Vikram_5",
+      "destination": "N6",
+      "weight": 8,
+      "priority": 15,
+      "deadline_hours": 2.9
+    },
+    {
+      "id": "P206",
+      "customer_name": "Arjun_6",
+      "destination": "N11",
+      "weight": 7,
+      "priority": 6,
+      "deadline_hours": 1.0
+    },
+    {
+      "id": "P207",
+      "customer_name": "Meera_7",
+      "destination": "N8",
+      "weight": 4,
+      "priority": 4,
+      "deadline_hours": 5.4
+    },
+    {
+      "id": "P208",
+      "customer_name": "Kunal_8",
+      "destination": "N10",
+      "weight": 5,
+      "priority": 9,
+      "deadline_hours": 6.4
+    },
+    {
+      "id": "P209",
+      "customer_name": "Pooja_9",
+      "destination": "N4",
+      "weight": 2,
+      "priority": 9,
+      "deadline_hours": 6.1
+    },
+    {
+      "id": "P210",
+      "customer_name": "Aarav_10",
+      "destination": "N7",
+      "weight": 8,
+      "priority": 6,
+      "deadline_hours": 4.5
+    },
+    {
+      "id": "P211",
+      "customer_name": "Aarav_11",
+      "destination": "N6",
+      "weight": 6,
+      "priority": 14,
+      "deadline_hours": 3.2
+    },
+    {
+      "id": "P212",
+      "customer_name": "Kabir_12",
+      "destination": "N5",
+      "weight": 1,
+      "priority": 9,
+      "deadline_hours": 1.9
+    },
+    {
+      "id": "P213",
+      "customer_name": "Kabir_13",
+      "destination": "N2",
+      "weight": 7,
+      "priority": 13,
+      "deadline_hours": 7.9
+    },
+    {
+      "id": "P214",
+      "customer_name": "Sanya_14",
+      "destination": "N14",
+      "weight": 10,
+      "priority": 10,
+      "deadline_hours": 1.7
+    },
+    {
+      "id": "P215",
+      "customer_name": "Meera_15",
+      "destination": "N14",
+      "weight": 3,
+      "priority": 14,
+      "deadline_hours": 4.5
+    },
+    {
+      "id": "P216",
+      "customer_name": "Aarav_16",
+      "destination": "N14",
+      "weight": 2,
+      "priority": 4,
+      "deadline_hours": 0.7
+    },
+    {
+      "id": "P217",
+      "customer_name": "Tanvi_17",
+      "destination": "N6",
+      "weight": 2,
+      "priority": 13,
+      "deadline_hours": 5.8
+    },
+    {
+      "id": "P218",
+      "customer_name": "Tanvi_18",
+      "destination": "N13",
+      "weight": 3,
+      "priority": 13,
+      "deadline_hours": 1.8
+    },
+    {
+      "id": "P219",
+      "customer_name": "Vikram_19",
+      "destination": "N13",
+      "weight": 9,
+      "priority": 10,
+      "deadline_hours": 7.8
+    },
+    {
+      "id": "P220",
+      "customer_name": "Rohan_20",
+      "destination": "N3",
+      "weight": 3,
+      "priority": 7,
+      "deadline_hours": 3.0
+    },
+    {
+      "id": "P221",
+      "customer_name": "Diya_21",
+      "destination": "N2",
+      "weight": 9,
+      "priority": 11,
+      "deadline_hours": 5.7
+    },
+    {
+      "id": "P222",
+      "customer_name": "Tanvi_22",
+      "destination": "N6",
+      "weight": 1,
+      "priority": 6,
+      "deadline_hours": 2.6
+    },
+    {
+      "id": "P223",
+      "customer_name": "Kunal_23",
+      "destination": "N14",
+      "weight": 2,
+      "priority": 7,
+      "deadline_hours": 7.5
+    },
+    {
+      "id": "P224",
+      "customer_name": "Tanvi_24",
+      "destination": "N5",
+      "weight": 4,
+      "priority": 9,
+      "deadline_hours": 1.3
+    },
+    {
+      "id": "P225",
+      "customer_name": "Kunal_25",
+      "destination": "N13",
+      "weight": 4,
+      "priority": 4,
+      "deadline_hours": 2.6
+    }
+  ]
+}
